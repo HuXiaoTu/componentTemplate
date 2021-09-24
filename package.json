@@ -4,10 +4,14 @@
   "version": "1.0.0",
   "author": "wangxiaoshuai",
   "license": "MIT",
-  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git所在包地址"
+  },
   "main": "dist/el-data-table.js",
   "unpkg": "dist/el-data-table.min.js",
   "module": "dist/el-data-table.esm.js",
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
