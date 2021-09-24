@@ -2,7 +2,7 @@
   "name": "yourProjectName",
   "description": "说明信息",
   "version": "1.0.0",
-  "author": "wangxiaoshuai",
+  "author": "${your name} ${email}",
   "license": "MIT",
   "repository": {
     "type": "git",
